@@ -75,7 +75,9 @@ def accuracyGraph(result):
     plt.show()
 
 if __name__ == "__main__":
-    mfccToJSON(DATASET_PATH, JSON_PATH)
+    
+    #se llama a la función mfccToJSON para generar el dataset en formato JSON, remover "#" si desea activar este comportamiento
+    #mfccToJSON(DATASET_PATH, JSON_PATH)
     inputs, targets = listToArray()
 
     #separando el dataset generado en datos para entrenamiento y para prueba
